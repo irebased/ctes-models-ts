@@ -1,0 +1,13 @@
+{
+  "name": "ctes-models-ts",
+  "version": "0.0.1",
+  "description": "Ciphertext Ecosystem models.",
+  "author": "irebased <rebased.again@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "generate": ". ./generate.sh"
+  },
+  "devDependencies": {
+    "ts-proto": "^2.11.0"
+  }
+}
