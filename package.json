@@ -5,9 +5,11 @@
   "author": "irebased <rebased.again@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "generate": ". ./generate.sh"
+    "generate": ". ./generate.sh",
+    "build": "npx tsc index.ts"
   },
   "devDependencies": {
+    "@types/node": "^25.0.9",
     "ts-proto": "^2.11.0"
   }
 }

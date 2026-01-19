@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "outDir": "./",
+    "lib": ["ES2018"],
+    "moduleResolution": "node",
+    "types": ["node"],
+    "strict": true,
+    "skipLibCheck": false
+  }
+}
