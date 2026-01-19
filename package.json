@@ -1,12 +1,15 @@
 {
   "name": "ctes-models-ts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ciphertext Ecosystem models.",
   "author": "irebased <rebased.again@gmail.com>",
   "license": "MIT",
   "scripts": {
     "generate": ". ./generate.sh",
     "build": "npx tsc index.ts"
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "^1.10.0"
   },
   "devDependencies": {
     "@types/node": "^25.0.9",
