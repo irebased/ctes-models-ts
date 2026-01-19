@@ -83,7 +83,7 @@ export interface Ciphertext {
    * If the ciphertext is encoded, please decode it to a bitstream first.
    */
   bytes: Uint8Array;
-  metadata?: CiphertextMetadata | undefined;
+  metadata: CiphertextMetadata | undefined;
 }
 
 /**
@@ -97,7 +97,7 @@ export interface CiphertextMetadata {
    */
   type: string;
   /** Metadata about how the bytes should be encoded. */
-  encoding?: EncodingMetadata | undefined;
+  encoding: EncodingMetadata | undefined;
 }
 
 /** Metadata about how the bytes should be encoded. */
